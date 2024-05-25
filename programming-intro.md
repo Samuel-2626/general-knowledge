@@ -103,3 +103,56 @@
 
 
 - Lines are evaluated one after the other
+
+## Strings, Input/ Output and Branching
+
+- Think of a str as a sequence of case-sensitive characters.
+- Characters can include letters, special characters, spaces, and digits.
+- Strings are enclosed in quotation marks or single quotes.
+- You should be consistent about either using quotation marks or single quotes in your program.
+- You can concatenate and repeat strings.
+
+- len() is a function used to retrieve the length of a string in the parentheses.
+
+
+## Slicing to get one character in a String
+
+- Square brackets are used to perform indexing into a string to get the value at a certain index/position.
+
+## Slicing to get a SUBSTRING
+
+- Can slice strings using [start: stop: step]
+- Get characters at start, up to and including stop-1, taking every step characters.
+- If given two numbers, [start: stop], step=1 by default
+- You can also omit numbers and leave just colons
+- Look at the step first. +ve means go left-to-right; -ve means go right-to-left
+
+## Good Trivial Question
+
+- Reverse a string 
+
+[::-1]
+
+## Immutable Strings
+
+- Strings are "immutable" - cannot be modified
+- You can create new objects that are versions of the original one
+- Variable name can only be bound to one object.
+
+## Python Input Function
+
+- Input always returns a str, which must be cast if working with numbers
+
+## F-strings
+
+- Available starting with Python 3.6
+
+## Why bool?
+
+- When we get to the flow of control, i.e. branching to different expressions based on values, we need a way of knowing if a condition is true.
+
+## Debug early, debug often
+
+- Write a little and test a little
+- Don't write a complete program at once; it introduces too many errors.
+
