@@ -156,3 +156,9 @@
 - Write a little and test a little
 - Don't write a complete program at once; it introduces too many errors.
 
+## Iteration
+
+- While loops can repeat code inside indefinitely! Sometimes they need your intervention to end the program.
+
+- For loops only repeat for however long the sequence is. The loop variables takes on these values in order.
+
