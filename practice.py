@@ -39,4 +39,22 @@
 # print(factorial)
 
 
+# Assume you are given a string of lowercase letters in a variable s. 
+# Guess how many unique letters there are in the string. 
+# For example, if s = "abca", then your code prints 3.
+
+# s = "abca"
+
+# def unique_letters(string):
+#     count = []
+#     for l in string:
+#         if l not in count:
+#             count.append(l)
+
+#     return len(count)
+
+
+# print(unique_letters(s))
+
+
 

@@ -162,3 +162,15 @@
 
 - For loops only repeat for however long the sequence is. The loop variables takes on these values in order.
 
+## Loops over strings, Guess-and-check, and Binary
+
+- break STATEMENT
+    * Immediately exits whatever loop it is in
+    * Skips remaining expressions in code block
+    * Exits only innermost loop!
+
+- The sequence of values in a for loop isn't limited to numbers
+
+* Challenge:
+- Assume you are given a string of lowercase letters in a variable s. Guess how many unique letters there are in the string. For example, if s = "abca", then your code prints 3.
+
