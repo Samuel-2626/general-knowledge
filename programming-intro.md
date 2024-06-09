@@ -174,3 +174,5 @@
 * Challenge:
 - Assume you are given a string of lowercase letters in a variable s. Guess how many unique letters there are in the string. For example, if s = "abca", then your code prints 3.
 
+
+- Booleans can be used as signals that something happened; we call them Boolean flags.
