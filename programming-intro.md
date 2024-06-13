@@ -176,3 +176,42 @@
 
 
 - Booleans can be used as signals that something happened; we call them Boolean flags.
+
+## Decomposition, Abstraction, and Functions
+
+- Apply abstraction (black box) and decomposition (split into self-contained parts) to programming.
+- Coder achieves abstraction with a function (or procedure).
+- A function lets us capture code within a black box.
+    * Once we create function, it will produce an output from inputs, while hiding details of how it does the computation.
+- A function has specifications, captured using docstrings.
+- Think of a docstring as a "contract" between the coder and user.
+    * If user provides input that satisfies stated conditions, function will produce output according to specs, including side effects.
+- Modules are used to:
+    * Break up code into logical pieces
+    * Keep code organized
+    * Keep code coherent (readable and understandable)
+- Decomposition relies on abstraction to enable the construction of complex modules from simpler ones.
+- Reusable pieces of code, called functions or procedures.
+- A function is just some code written in a special, reusable way.
+- Defining a function tells Python some code now exists in memory.
+- Functions are only useful when they are run ("called" or "invoked").
+- You write a function once but you can run it many times!
+- Function characteristics
+    * Has a name
+    * Has parameters (0 or more)
+        - The inputs
+    * Has a docstring (optional but recommended)
+        - A comment delineated by """ (triple quotes) that provides a specification for the function - contract relating output to input.
+    * Has a body, a set of instructions to execute when the function is called.
+    * Returns something.
+        - Keyword return
+- How to think about writing a function
+    * What is the problem?
+        - Use this to write the function name and specs
+    * How to solve the problem?
+        - Think about what value you need to give back
+    * Can you make the code cleaner?
+- Solve a simpler problem first
+    * Add functionality to the code later
+- Test code often; use prints to debug
+
